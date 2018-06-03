@@ -25,7 +25,7 @@ function submitIt() {
 submitIt();
 
 function pressIt() {
-  $('#typing').on('keyPress', function(e) {
+  $('form').on('keyPress', function(e) {
     if (e.key == 'g') {
       alert("You have pressed G.")
     }
