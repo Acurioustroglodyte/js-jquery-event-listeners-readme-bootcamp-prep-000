@@ -26,7 +26,7 @@ submitIt();
 
 function pressIt() {
   $('#typing').on('keyPress', function(e) {
-    if (e.which == 103 || e.which == 71) {
+    if (e.key == 'g') {
       alert("You have pressed G.")
     }
   })
